@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Quiz Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Online Quiz Maker</h1>
+
+    <div class="quiz-form">
+        <h2>Create Quiz</h2>
+
+        <input type="text" id="question" placeholder="Enter Question">
+
+        <input type="text" id="option1" placeholder="Option 1">
+        <input type="text" id="option2" placeholder="Option 2">
+        <input type="text" id="option3" placeholder="Option 3">
+        <input type="text" id="option4" placeholder="Option 4">
+
+        <input type="number" id="correct" placeholder="Correct Option Number (1-4)">
+
+        <button onclick="addQuestion()">Add Question</button>
+        <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <div id="quizSection"></div>
+
+    <div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
